@@ -9,7 +9,6 @@ body {
     border: 10px #D8C858 solid;
     padding: 0.5em;
 }
-
 hr {
     width: 90%;
     border: 1px solid #D8C858;
@@ -21,6 +20,16 @@ h1, h2 {
 }
 
 input[type="submit"] {
+
     font-size: 2em;
     width: 100%;
+}
+
+input[type="radio"] {
+
+    display: block;
+    margin: 0 auto;
+}
+p{
+    display: inline-block;
 }
